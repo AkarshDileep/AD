@@ -1,0 +1,141 @@
+body{
+    overflow-x: hidden;
+}
+.bggal{
+    background-image: url("images/bg.jpeg.jpg");
+     
+     
+}
+.about{
+     
+    border-radius: 30px;
+    border: 1px black;
+     
+}
+.tp{
+    position: relative;
+    animation: animatebottom 1s;
+    
+}
+.fadein{
+    animation: opac 3s;
+}
+.grad{
+    background: linear-gradient(45deg, #f82b9f 0%, #2d08e6 65.02%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     
+}
+ 
+.fonte{
+    font-family: "DomaineDisplayNarrow",Georgia,serif;
+    font-weight: bold;
+    font-style: normal;
+     
+    
+    
+}
+.BORDER{
+    border: 1px solid #000000;
+    border-radius: 14px;
+    border-left: 1px solid black;
+    height: 100%;
+}
+.top{
+    
+
+    transform: translate3d(-15%);
+    transition-duration: 1000ms;
+}
+.display-1 {
+    font-size: calc(3.625rem + 4.5vw);
+    font-weight: 900;
+    line-height: 1.2;
+}
+#editing{
+    color: #3a3535;
+    font-family: "DomaineDisplayNarrow",Georgia,serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2rem;
+}
+#frontend{
+    font-family: "DomaineDisplayNarrow",Georgia,serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2.5rem;
+    color: #000000;
+}
+.ani{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: white;
+    
+} 
+.headings{
+    padding-left: 75px;
+    font-size: 36px;
+    font-family: kwhz-i4, adobe-notdef;
+    font-weight: 400;
+    font-style: italic;
+    font-weight: bold;
+}
+.service_box{
+      border: #000000 1px solid;
+      border-radius: 14px;
+}
+.fontee{
+    
+    font-family: mkgt-n9, adobe-notdef;
+    font-weight: 900;
+    font-style: normal;
+
+}
+form{
+    text-decoration: none;
+}
+input{
+    text-decoration: none;
+    border: 0px;
+    border-bottom: #000000 1px solid;
+    padding: 20px;
+}
+button{
+    background: linear-gradient(45deg, #f82b9f 0%, #2d08e6 65.02%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.form-submit-button {
+	background:  linear-gradient(45deg, #f82b9f 0%, #2d08e6 65.02%);
+	color: white;
+	border-style: outset;
+	border-color: #0066A2;
+    border-radius: 25px;
+	height: 50px;
+	width: 200px;
+	font: bold15px arial,sans-serif;
+	text-shadow: none;
+    padding: 0px;
+    font-family: Opensaucesans, sans-serif;
+    font-weight: 400;
+    
+}
+textarea {
+    text-decoration: none;
+    border: 0px;
+    border-bottom: #000000 1px solid;
+    padding: 20px;
+}
+.grey{
+    color: #090909c9;
+    border: linear-gradient(45deg, #f82b9f 0%, #2d08e6 65.02%);
+} 
+.headingss{
+    
+    font-size: 36px;
+    font-family: kwhz-i4, adobe-notdef;
+    font-weight: 400;
+    font-style: italic;
+    font-weight: bold;
+}  
